@@ -1,0 +1,109 @@
+.contactinfo{
+    border-radius: 10px;
+    box-shadow: 2px 3px 20px 6px rgba(0, 0, 0, 0.158);
+    padding: 10px;
+}
+
+@media (min-width: 768px){
+    .contactinfo{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .leftcontact{
+        width: 60%;
+    }
+}
+
+@media (max-width:768){
+    .contactinfo{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .leftcontact{
+        width: 100%;
+    }
+}
+
+.leftcontact{
+    color: rgba(255, 255, 255, 0.829);
+    background-image: url(./Assets/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.leftcontact h3{
+    color: white;
+}
+
+.contactdetails{
+    display: flex;
+    flex-direction: column;
+}
+
+.contactdetails p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    list-style: none;
+}
+
+.social-icons-contact a{
+    text-decoration: none;
+    color: #00AEEF !important;
+    fill: rgb(129, 129, 129);
+    margin: 10px;
+    transition: all 0.2s ease-in-out;
+}
+.social-icons-contact svg:hover{
+    transition: all 0.2s ease-in-out;
+    fill: rgb(255, 255, 255) !important;
+}
+
+.top{
+    top:0px;
+    height: 20%;
+}
+
+.mid{
+    margin-top: 40px;
+    height: 60%;
+}
+
+.bot{
+    margin-top: 100px;
+    bottom:0px;
+    height: 20%;
+}
+.btn-color{
+    color: #FFF;
+    background-color: #00AEEF;
+    transition: all 0.2s ease-in-out;
+}
+
+.btn-color:hover{
+    color: #FFF;
+    transform: translateY(-5px);
+    transition: all 0.2s ease-in-out;
+    box-shadow: 10px;
+    box-shadow: 2px 5px 10px -1px rgba(0,0,0,0.3);
+}
+
+.btn-color:active{
+    background-color: #009bd3;
+}
+
+
+.submitedverify{
+    color: green;
+    outline:none;
+    border: 1px solid rgb(0, 255, 0);
+}
+.submitedverify:focus{
+    outline: none;
+    border: 1px solid rgb(0, 255, 0);
+
+}

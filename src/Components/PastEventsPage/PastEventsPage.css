@@ -1,0 +1,26 @@
+.timeline-fixed{
+    position: fixed;
+}
+
+@media (min-width: 768px){
+    .timeline-fixed{
+        visibility: visible;
+    }
+}
+
+@media (max-width: 768px){
+    .timeline-fixed{
+        visibility: hidden;
+    }
+}
+
+.topic-year{
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.line-red{
+    width: 50%;
+    border : 1px solid red;
+}

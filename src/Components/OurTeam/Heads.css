@@ -1,0 +1,70 @@
+.team-box{
+    padding:10px;
+    background-repeat: no-repeat;
+    filter: grayscale(0%);
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+
+.team-text{
+    text-align: center;
+    display: grid;
+    place-items: center;
+    color: #FFF !important;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+.overlay-profile{
+    display: grid;
+    align-items: center;
+    place-items: center;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 10px;
+    padding:10px;
+    border-radius: 50%;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+}
+.team-box img{
+    width: 200px;
+    height: 200px;
+    filter: grayscale(100%);
+    transition: all 0.3s ease-in-out;
+    object-fit: cover;
+}
+.team-box:hover .team-text{
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+}
+.team-box:hover img{
+        transition: all 0.3s ease-in-out;
+}
+.team-box:hover .overlay-profile{
+    border-radius: 0%;
+    box-shadow: inset 0 0 0 10em rgba(0, 0, 0, 0.644)
+}
+
+.socialLogos-profile{
+    display: flex;
+    flex-direction: row;
+}
+
+.socialLogos-profile a{
+    text-decoration: none;
+    color: rgb(0, 132, 255) !important;
+    margin: 10px;
+    transition: all 0.3s ease-in-out;
+}
+.socialLogos-profile a:hover{
+    color: #fff !important;
+    transition: all 0.3s ease-in-out;
+}
+
+.Heads-profile .row{
+    align-items: center;
+    place-items: center;
+    place-content: center;
+
+}

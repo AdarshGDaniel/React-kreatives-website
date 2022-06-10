@@ -1,0 +1,25 @@
+.section-container{
+    margin: 20px 20px 20px 20px;
+    padding: 10px;
+  }
+
+.section-container h2{
+    text-align: center;
+}
+
+.About a:hover .link-hover{
+  visibility: visible;
+}
+
+.About p{
+  font-style: italic;
+}
+.About{
+  background-color: #F8F9FA;
+}
+
+.link-hover{
+  margin: auto;
+  font-weight: lighter;
+  visibility: hidden;
+}

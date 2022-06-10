@@ -1,0 +1,65 @@
+@media (min-width: 800px){
+    .d-block{
+        object-fit:cover;
+        height: 100vh !important;
+    }
+    .hover-text{
+        min-height: 100vh !important;
+    }
+    .text-field h1{
+        font-size: 5rem;
+    }
+    .Typewriter{
+        font-size: 3rem !important;
+    }
+}
+
+@media (max-width: 800px){
+    .d-block{
+        object-fit:cover;
+        height: 300px !important;
+    }
+    .hover-text{
+        min-height: 300px !important;
+    }
+    .text-field h1{
+        margin: 0 30px 0 30px;
+        font-size: 45px;
+    }
+    .Typewriter{
+        margin: 0 30px 0 30px;
+        font-size: 30px !important;
+    }
+}
+
+
+.carouselSlider{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #0066FF;
+    opacity: 0.4;
+}
+
+
+.hover-text{
+    text-align: left;
+    display:grid;
+    place-items: center;
+    z-index: 1;
+    position: absolute;
+    width: 100%;
+    background-color: #0000008f;
+}
+.text-field{
+    margin: auto;
+    color: #FFF;
+}
+
+
+
+@media (min-width: 992px){
+    .hover-text{
+        min-height: 800px;
+    }
+}

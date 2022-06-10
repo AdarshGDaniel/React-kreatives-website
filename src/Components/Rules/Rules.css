@@ -1,0 +1,41 @@
+.main-rules{
+    display: grid;
+    place-items: center;
+    padding: 20px;
+}
+
+.main-doc{
+    border-radius: 10px !important;
+    box-shadow: -3px 4px 32px -5px rgba(0, 0, 0, 0.219);
+}
+
+.arrow-buttons{
+    color: #ff0000;
+    width: 20%;
+    font-size: 3em;
+    display: flex;
+    justify-content: space-between;
+    transition: visibility 0.3s ease-in-out;
+}
+
+.arrow-buttons a{
+    transition: all 0.3s ease-in-out;
+}
+
+.arrow-buttons a:hover{
+    cursor: pointer;
+    color: #00aeef !important;
+    transform: translateY(-5px);
+    transition: all 0.3s ease-in-out;
+}
+
+.arrow-buttons a:active{
+    color: #0085b6 !important;
+}
+
+@media (max-width: 768px){
+    .main-doc{
+        max-width: 300px !important;
+        overflow:auto;
+    }
+}

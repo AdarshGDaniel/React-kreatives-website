@@ -1,0 +1,16 @@
+@media (max-width: 400px){
+    .carousel-float{
+        margin-bottom: 0;
+        padding: 8px;
+    }
+}
+@media (min-width: 400px){
+    .carousel-float{
+        margin-bottom: 15%;
+        padding: 50px;
+    }
+}
+.carousel-float{
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}

@@ -1,0 +1,44 @@
+#PastEvents{
+    justify-content:center;
+}
+.past-events{
+    justify-content:center;   
+}
+.event-card{
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.23) !important;
+    background-color: #10202b !important;
+    color: #fff !important;
+    border-radius: 0px !important;
+    height: 500px;
+}
+
+.event-card:hover .MuiCardMedia-root{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.05,1.05);
+}
+
+.content-text-date{
+    color: #ffcc00 !important;
+}
+
+.content-text-card{
+    color: #FFF !important;
+}
+
+.Button-center-past-event{
+    display: grid;
+    place-items: center;
+}
+.Button-center-past-event Button{
+    margin-top: 60px;
+    background-color: #ffcc00;
+    color: #FFF;
+    transition: all ease-in-out 0.3s;
+}
+
+.Button-center-past-event Button:hover{
+    transform: translateY(-10px) !important;
+    background-color: #ffcc00;
+    box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.164);
+    transition: all ease-in-out 0.3s;
+}

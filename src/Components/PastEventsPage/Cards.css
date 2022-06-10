@@ -1,0 +1,28 @@
+.card-holder{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    box-shadow: -3px 4px 12px -5px rgba(0,0,0,0.35) !important;
+}
+
+@media (min-width: 768px){
+    .card-imageo{
+        height:300px;
+        width: 500px;
+    }
+}
+
+@media (max-width: 768px){
+    .card-imageo{
+        min-height: 300px;
+        height:auto;
+        width: 300px;
+    }
+}
+
+
+.card-imageo{
+    background-size: cover;
+    object-fit: contain;
+}

@@ -1,0 +1,72 @@
+.App{
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+.align-center{
+  text-align: center;
+}
+
+.mar-top-20{
+  margin-top: 20px;
+}
+.mar-top-30{
+  margin-top: 30px;
+}
+.mar-bottom-20{
+  margin-bottom: 20px;
+}
+.mar-bottom-30{
+  margin-bottom: 30px;
+}
+
+.mar-top-bot-30{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.mar-top-bot-50{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.mar-bot-50{
+  margin-bottom: 50px;
+}
+
+.mar-top-50{
+  margin-top: 50px;
+}
+
+.mar-top-100{
+  margin-top: 100px;
+}
+
+.mar-bot-100{
+  margin-bottom: 100px;
+}
+
+
+.bg-particles{
+  position: fixed !important;
+  height:100%;
+  z-index: 2000;
+}
+
+.heading-underline-center{
+  width: 100%;
+  text-align: center;
+}
+.heading-underline{
+  display: inline-block;
+  width: 50px;
+  border-bottom: 3px solid #ffcc00;
+}
+
+.space-section{
+  margin-bottom: 200px;
+}
+
+.pad-top-100{
+  padding-top: 100px;
+}
