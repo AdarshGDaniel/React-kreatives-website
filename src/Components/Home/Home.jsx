@@ -3,7 +3,6 @@ import NavBootstrap from '../nav-bootstrap/NavBootstrap'
 import SliderBootstrap from '../SliderBootstrap/SliderBootstrap'
 import About from '../About/About'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import VideoTab from '../VideoTab/VideoTab'
 import PastEvents from '../PastEvents/PastEvents'
 import Schedule from '../Schedule/Schedule'
 import AOS from 'aos';
