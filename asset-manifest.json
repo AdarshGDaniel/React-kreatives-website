@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/React-kreatives-website/static/css/main.79aa88b4.chunk.css",
-    "main.js": "/React-kreatives-website/static/js/main.447aa305.chunk.js",
-    "main.js.map": "/React-kreatives-website/static/js/main.447aa305.chunk.js.map",
+    "main.css": "/React-kreatives-website/static/css/main.58ff1aaf.chunk.css",
+    "main.js": "/React-kreatives-website/static/js/main.b9466bb3.chunk.js",
+    "main.js.map": "/React-kreatives-website/static/js/main.b9466bb3.chunk.js.map",
     "runtime-main.js": "/React-kreatives-website/static/js/runtime-main.34a0bdef.js",
     "runtime-main.js.map": "/React-kreatives-website/static/js/runtime-main.34a0bdef.js.map",
     "static/css/2.8473dddd.chunk.css": "/React-kreatives-website/static/css/2.8473dddd.chunk.css",
-    "static/js/2.e6dc1bab.chunk.js": "/React-kreatives-website/static/js/2.e6dc1bab.chunk.js",
-    "static/js/2.e6dc1bab.chunk.js.map": "/React-kreatives-website/static/js/2.e6dc1bab.chunk.js.map",
+    "static/js/2.8652c203.chunk.js": "/React-kreatives-website/static/js/2.8652c203.chunk.js",
+    "static/js/2.8652c203.chunk.js.map": "/React-kreatives-website/static/js/2.8652c203.chunk.js.map",
     "index.html": "/React-kreatives-website/index.html",
     "static/css/2.8473dddd.chunk.css.map": "/React-kreatives-website/static/css/2.8473dddd.chunk.css.map",
-    "static/css/main.79aa88b4.chunk.css.map": "/React-kreatives-website/static/css/main.79aa88b4.chunk.css.map",
-    "static/js/2.e6dc1bab.chunk.js.LICENSE.txt": "/React-kreatives-website/static/js/2.e6dc1bab.chunk.js.LICENSE.txt",
+    "static/css/main.58ff1aaf.chunk.css.map": "/React-kreatives-website/static/css/main.58ff1aaf.chunk.css.map",
+    "static/js/2.8652c203.chunk.js.LICENSE.txt": "/React-kreatives-website/static/js/2.8652c203.chunk.js.LICENSE.txt",
     "static/media/1.13a5884c.jpg": "/React-kreatives-website/static/media/1.13a5884c.jpg",
     "static/media/1.6c56d0c9.png": "/React-kreatives-website/static/media/1.6c56d0c9.png",
     "static/media/10.13a5884c.jpg": "/React-kreatives-website/static/media/10.13a5884c.jpg",
@@ -56,8 +56,8 @@
   "entrypoints": [
     "static/js/runtime-main.34a0bdef.js",
     "static/css/2.8473dddd.chunk.css",
-    "static/js/2.e6dc1bab.chunk.js",
-    "static/css/main.79aa88b4.chunk.css",
-    "static/js/main.447aa305.chunk.js"
+    "static/js/2.8652c203.chunk.js",
+    "static/css/main.58ff1aaf.chunk.css",
+    "static/js/main.b9466bb3.chunk.js"
   ]
 }
