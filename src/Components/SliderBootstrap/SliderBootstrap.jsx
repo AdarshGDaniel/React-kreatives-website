@@ -16,7 +16,7 @@ function SliderBootstrap(props) {
                     <h1><b style={{color: "#ffcc00"}}>Kreatives</b></h1>
                     <Typewriter
                         options={{
-                            strings: ['Creativists 😍', 'We Design 🎨', 'We Write ✍️', 'We Edit 🎬', 'Meet our amazing Team down below 👶'],
+                            strings: ['Creativists 😍', 'We design 🎨', 'We write ✍️', 'We edit 🎬'],
                             autoStart: true,
                             loop: true,
                         }}

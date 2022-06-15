@@ -7,12 +7,12 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import img1 from './Assets/pic1.JPG'
-import img2 from './Assets/pic2.JPG'
-import img3 from './Assets/pic3.png'
-import img4 from './Assets/pic4.JPG'
-import img5 from './Assets/pic5.jpg'
-import img6 from './Assets/pic6.jpg'
+import img1 from './Assets/1.jpg'
+import img2 from './Assets/2.jpg'
+import img3 from './Assets/3.jpg'
+import img4 from './Assets/4.jpg'
+import img5 from './Assets/5.jpg'
+import img6 from './Assets/6.jpg'
 import FiberNewOutlinedIcon from '@material-ui/icons/FiberNewOutlined';
 import OwlCarousel from "react-owl-carousel";
 import "owl.carousel/dist/assets/owl.carousel.css";
@@ -54,12 +54,12 @@ function PastEvents(props) {
                 loop
                 responsive = {state.responsive}
                 data-aos="fade-up" data-aos-delay="300">
-                <CardsScroll image={img1} Title="Bootcamp 1 2021" description="We conducted a Virtual 3 Day Bootcamp for the students on the topics: Python Advanced, Web development and Amazon Alexa & Google Assistant." Date= "3rd to 5th Mar 2021" />
-                <CardsScroll image={img2} Title="Python for all" description="In collabration with CTC (Computer Technology Center) we had a 2 Day Virtual workshop on Python." Date= "26th & 27th Feb 2021" />
-                <CardsScroll image={img3} Title="MLH: Intro to Python" description="KHacks collabrated with MLH (Major League Hacking) and conducted a Python workshop for the beginners." Date= "16th Nov 2020" />
-                <CardsScroll image={img4} Title="LHD Build the Future 2019" description="On (Date) we hit a major milestone, we conducted a 24hr Hackathon for the first time and it was a great success!" Date= "12th - 13th Dec 2019" />
-                <CardsScroll image={img5} Title="Hacktober Fest" description="Hacktober Fest was targeted for the first years to encorage them to code and win prizes. Students learnt about GitHub and its use during this Workshop." Date= "15th Oct 2019" />
-                <CardsScroll image={img6} Title="Bootcamp" description="This was a 4 Day Bootcamp which included Amazon Alexa, Advanced Python, Python Automation and Data Science. " Date= "14th to 23rd Oct 2019" />
+                <CardsScroll image={img1} Date="22 Mar 2022" Title="World poetry day, the prompt poetry competition" description="" />
+                <CardsScroll image={img2} Date="04 Feb 2021" Title="Cancer Awareness Design Competition" description=""/>
+                <CardsScroll image={img3} Date="Oct 2021 (4 weeks)" Title="Inktober Competition" description=""/>
+                <CardsScroll image={img4} Date="12 July 2021 " Title="World Youth Day Painting competition" description="Painting the tides of the future - The Youth with the strokes of a brush - The colors of Knowledge."/>
+                <CardsScroll image={img5} Date="14 Jun 2021" Title="Father’s Day poetry challenge 2021" description="Just a few words knitted together in a humble try to hold all our love for the fathers out there. We had the joy of building the platform to share this bliss." />
+                <CardsScroll image={img6} Date="07 Jun 2021" Title="Humans Of Karunya" description="Stringing stories that extract the essence of existence at KARUNYA! Unifying fellow mates with their unique fables that are rustic and raw. Maybe a bit citrusy, delivering that extra zing! Slightly spicy tales seasoned and served. A pallet you might never want to miss. Only @humansofkarunya"/>
             </OwlCarousel>
             <Link to="/PastEvents" style={{ textDecoration: 'none' }} className="container Button-center-past-event"><Button>See more</Button></Link>
         </section>

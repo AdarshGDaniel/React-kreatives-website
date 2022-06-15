@@ -44,11 +44,11 @@ function FAQ(props) {
                         aria-controls="panel1bh-content"
                         id="panel1bh-header"
                         >
-                        <Typography className={classes.heading}>How is KarunyaHacks beneficial?</Typography>
+                        <Typography className={classes.heading}>What is the goal of Kreatives?</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                         <Typography>
-                        It provides students a chance to explore their technical Skills.
+                        Our focus is to highlight various departments, student achievements, and topics that are beneficial to the students in Karunya.
                         </Typography>
                         </AccordionDetails>
                     </Accordion>
@@ -60,11 +60,11 @@ function FAQ(props) {
                         aria-controls="panel2bh-content"
                         id="panel2bh-header"
                         >
-                        <Typography className={classes.heading}>How often does karunyaHacks host events?</Typography>
+                        <Typography className={classes.heading}>Who are the designers?</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                         <Typography>
-                        We host two events very month
+                        Students who have intrests in designing are trained to work as designers for Karunya.
                         </Typography>
                         </AccordionDetails>
                     </Accordion>
@@ -77,28 +77,11 @@ function FAQ(props) {
                         aria-controls="panel3bh-content"
                         id="panel3bh-header"
                         >
-                        <Typography className={classes.heading}>What should I bring?</Typography>
+                        <Typography className={classes.heading}>Does Kreatives conduct events?</Typography>
                         </AccordionSummary>
                         <AccordionDetails>
                         <Typography>
-                        All participants are requested to bring their personal laptop and any related resources required to design your dream.
-                        </Typography>
-                        </AccordionDetails>
-                    </Accordion>
-                </div>
-
-                <div data-aos="fade-up" data-aos-delay="400">
-                    <Accordion className="accordion-box" expanded={expanded === 'panel4'} onChange={handleChange('panel4')}>
-                        <AccordionSummary
-                        expandIcon={<ExpandMoreIcon className="icon-faq" />}
-                        aria-controls="panel4bh-content"
-                        id="panel4bh-header"
-                        >
-                        <Typography className={classes.heading}>Is coding experince required?</Typography>
-                        </AccordionSummary>
-                        <AccordionDetails>
-                        <Typography>
-                        Ofcourse not! All students who want to learn about technology,design and building innovative products are welcome.
+                        Yes, we conduct competitions and events relevent to designing.
                         </Typography>
                         </AccordionDetails>
                     </Accordion>

@@ -8,7 +8,6 @@ import Schedule from '../Schedule/Schedule'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Works from '../Works/Works'
-import OurTeam from '../OurTeam/OurTeam'
 import FAQ from '../FAQ/FAQ'
 import Footer from '../Footer/Footer'
 
@@ -30,8 +29,6 @@ function Home(props) {
             <Schedule />
             <div id="Works" className = "space-section"></div>
             <Works />
-            <div id="OurTeam" className = "space-section"></div>
-            <OurTeam />
             <div id="FAQ" className = "space-section"></div>
             <FAQ />
             <Footer />

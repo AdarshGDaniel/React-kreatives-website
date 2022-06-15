@@ -19,6 +19,8 @@ import img14 from './Assets/img14.png';
 import img15 from './Assets/img15.png';
 import img16 from './Assets/img16.png';
 import img17 from './Assets/img17.png';
+import InstagramEmbed from 'react-instagram-embed';
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
 
 function Sponsors(props) {
     const photos = [
@@ -118,16 +120,23 @@ function Sponsors(props) {
                 <h4>Our Works</h4>
                 &nbsp;
                 <span>
-                    <p data-aos="fade-up" data-aos-delay="200"><BsBookmarkCheck color="#ffcc00" fontSize="larger" fontSize="1.5rem" /> &nbsp; <i> Demo your API during the event or showcase your hardware/devices enabling students to tinker and create, while also receiving invaluable feedback to further improve your product.</i></p>
-                    <p data-aos="fade-up" data-aos-delay="300"><BsBookmarkCheck color="#ffcc00" fontSize="larger" fontSize="1.5rem" />&nbsp; <i> Showcasing your company brand during the Hackathon, allows you a better platform to broadcast your company stature, thus boosting brand recognition, hence encouraging students to know more about your company</i></p>
-                    <p data-aos="fade-up" data-aos-delay="400"><BsBookmarkCheck color="#ffcc00" fontSize="larger" fontSize="1.5rem" />&nbsp; <i> Also we will promote your brand throughout our event through social media platforms and other platforms</i></p>
+                    <p data-aos="fade-up" data-aos-delay="200"><BsBookmarkCheck color="#ffcc00" fontSize="larger" fontSize="1.5rem" /> &nbsp; <i> We work to turn the visions and dreams of others into testimonies of success. We set the stage for those who wish to make a change. And through it all, We find our way in life by helping others find theirs.</i></p>
+                    <p data-aos="fade-up" data-aos-delay="300"><BsBookmarkCheck color="#ffcc00" fontSize="larger" fontSize="1.5rem" />&nbsp; <i>All content and design submissions crack a three-step quality check process to put our choicest product out there. The ignition starts when the department managers and event organizers at Karunya reach out to us for promotional content and posters for events, conferences, competitions, cultural programs, webinars, and to publish the laurels and merits of fellow Karunyans.</i></p>
+                    <p data-aos="fade-up" data-aos-delay="400"><BsBookmarkCheck color="#ffcc00" fontSize="larger" fontSize="1.5rem" />&nbsp; <i>We join hands in collaboration with other organizations namely, E-cell and K-Hacks for various events.</i></p>
                 </span>
             </div>
             <div className = "space-section"></div>
             <div className="image-set container">
                 <PhotoAlbum layout="rows" photos={photos} />
             </div>
-            
+            <h2 className="title-kk align-center">Karunya Social Medias</h2>
+            <div className="heading-underline-center"><div className="heading-underline"></div></div>
+            <div className='title-kk container'>
+                <div className='row social-work-out'>
+                    <div className='social-work'><TwitterTimelineEmbed sourceType="profile" screenName="karunyauniv" options={{height: 500}}/></div>
+                    <div className='social-work fb-page' data-href="https://www.facebook.com/karunyauniversity/" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/karunyauniversity/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/karunyauniversity/">Karunya Institute of Technology and Sciences - Deemed University</a></blockquote></div>
+                </div>
+            </div>
         </section>
     );
 }

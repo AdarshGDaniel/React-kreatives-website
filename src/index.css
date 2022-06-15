@@ -19,6 +19,6 @@ code {
   background: black;
 }
 ::-webkit-scrollbar-thumb{
-  background-color: red;
+  background-color: #ffcc00;
   border-radius: 10px;
 }

@@ -18,17 +18,13 @@ import pic4 from './Assets/4.jpg';
 import pic5 from './Assets/5.jpg';
 import pic6 from './Assets/6.jpg';
 import pic7 from './Assets/7.jpg';
-import pic8 from './Assets/8.png';
+import pic8 from './Assets/8.jpg';
 import pic9 from './Assets/9.jpg';
-import pic10 from './Assets/10.JPG';
+import pic10 from './Assets/10.jpg';
 import pic11 from './Assets/11.jpg';
 import pic12 from './Assets/12.jpg';
 import pic13 from './Assets/13.jpg';
-import pic14 from './Assets/14.JPG';
-import pic15 from './Assets/15.png';
-import pic16 from './Assets/16.JPG';
-import pic17 from './Assets/17.JPG';
-
+import pic14 from './Assets/14.jpg';
 
 
 function PastEventsPage(props) {
@@ -47,66 +43,50 @@ function PastEventsPage(props) {
                                 <TimelineDot />
                                 <TimelineConnector />
                                 </TimelineSeparator>
+                                <TimelineContent><Link style={{cursor: 'pointer'}} activeClass="active" to="2022" spy={true} smooth={true} offset={-80} duration={500}>2022</Link></TimelineContent>
+                            </TimelineItem>
+                            <TimelineItem>
+                                <TimelineSeparator>
+                                <TimelineDot />
+                                <TimelineConnector />
+                                </TimelineSeparator>
                                 <TimelineContent><Link style={{cursor: 'pointer'}} activeClass="active" to="2021" spy={true} smooth={true} offset={-80} duration={500}>2021</Link></TimelineContent>
                             </TimelineItem>
                             <TimelineItem>
-                                <TimelineSeparator>
                                 <TimelineDot />
-                                <TimelineConnector />
-                                </TimelineSeparator>
                                 <TimelineContent><Link style={{cursor: 'pointer'}} activeClass="active" to="2020" spy={true} smooth={true} offset={-80} duration={500}>2020</Link></TimelineContent>
-                            </TimelineItem>
-                            <TimelineItem>
-                                <TimelineSeparator>
-                                <TimelineDot />
-                                <TimelineConnector />
-                                </TimelineSeparator>
-                                <TimelineContent><Link style={{cursor: 'pointer'}} activeClass="active" to="2019" spy={true} smooth={true} offset={-80} duration={500}>2019</Link></TimelineContent>
-                            </TimelineItem>
-                            <TimelineItem>
-                                <TimelineSeparator>
-                                <TimelineDot />
-                                </TimelineSeparator>
-                                <TimelineContent><Link style={{cursor: 'pointer'}} activeClass="active" to="2018" spy={true} smooth={true} offset={-80} duration={500}>2018</Link></TimelineContent>
                             </TimelineItem>
                         </Timeline>
                     </div>
                 <div className="container mar-top-100">
                     <div className="contents-block">
+                    <div id="2022" className="topic-year mar-top-100"> 
+                            <h2>2022</h2>
+                            <div className="line-red"></div>
+                        </div>
+                        <CardsLeft image={pic14} date="22 Mar 2022" title="World poetry day, the prompt poetry competition" description=""/>
                         <div id="2021" className="topic-year mar-top-100">
                             <h2>2021</h2>
                             <div className="line-red"></div>
                         </div>
-                        <CardsLeft image={pic17} date="03 to 05 Mar 2021" title="BOOTCAMP 1 2021" description="KHacks conducted virtual 3 Day Bootcamp exclusively for the first years, on Python Advanced, Web Development and Virtual Assistant(Amazon Alexa & Google Assistant) topics."/>
-                        <CardsRight image={pic16} date="26, 27 Feb 2021" title="PYTHON FOR ALL" description="KHacks in collaboration with CTC (Computer Technology Center) conducted a two day workshop on Python exclusively for the first years."/>
+                        <CardsLeft image={pic13} date="04 Feb 2021" title="Cancer Awareness Design Competition" description=""/>
+                        <CardsLeft image={pic12} date="Oct 2021 (4 weeks)" title="Inktober Competition" description=""/>
+                        <CardsRight image={pic11} date="12 July 2021 " title="World Youth Day Painting competition" description="Painting the tides of the future - The Youth with the strokes of a brush - The colors of Knowledge."/>
+                        <CardsLeft image={pic10} date="14 Jun 2021" title="Father’s Day poetry challenge 2021" description="Just a few words knitted together in a humble try to hold all our love for the fathers out there. We had the joy of building the platform to share this bliss."/>
+                        <CardsRight image={pic9} date="07 Jun 2021" title="Humans Of Karunya" description="Stringing stories that extract the essence of existence at KARUNYA! Unifying fellow mates with their unique fables that are rustic and raw. Maybe a bit citrusy, delivering that extra zing! Slightly spicy tales seasoned and served. A pallet you might never want to miss. Only @humansofkarunya"/>
+                        <CardsLeft image={pic8} date="04 Apr 2021" title="Essay Competition - plastic elimination" description="Nature friendly is future friendly. To emphasize our take, we conducted the ‘Essay Competition - Plastic Elimination’ A word written is a thought that’s engraved, a future that is sown. Our essay writing competition is a testimony."/>
+                        <CardsRight image={pic7} date="31 Mar 2021" title="Real-me Super-me design challenge" description="You got you. Oh yeah, you got YOU! We got you! Exposing the super- you through the ‘Real-me Super - me’ design challenge was truly an empowering event. "/>
+                        <CardsLeft image={pic6} date="25 Mar 2021" title="Minimalist Photography challenge" description="We are just EXTRA basic. You get the vibe. Our Minimalist Photography Challenge revolved around the theme of science, architecture, and monochrome. Our photographers sure showed a fine fashion for photography!"/>
+                        <CardsRight image={pic5} date="20 Mar 2021" title="Acrostic Poem Challenge" description="We don’t just think. We T- Tackle H- Help I - Innovate N - Nurture K - Kreate Pun intended."/>
+                        <CardsLeft image={pic4} date="13, 20, 27 Mar & 5 Apr 2021" title="Design Bootcamp - II" description="We had to do it. We just had to do it! Design Series - Photoshop Bootcamp - II With 100+ participants in and around Karunya, a complete swing of hands-on experiences, thrilling challenges, and QnA sessions, and full-on amusement. We had it all!"/>
                         <div id="2020" className="topic-year mar-top-100">
                             <h2>2020</h2>
                             <div className="line-red"></div>
                         </div>
-                        <CardsLeft image={pic15} date="16 Nov 2020" title="INTRO TO PYTHON" description="KarunyaHacks had its first virtual event during the COVID19 pandemic. This workshop gave an introduction to Python for those who are starting in programming, it also allowed students to be intrested in coding."/>
-                        <div id="2019" className="topic-year mar-top-100">
-                            <h2>2019</h2>
-                            <div className="line-red"></div>
-                        </div>
-                        <CardsRight image={pic14} date="12, 13 Dec 2019" title="LHD - Build 2019 (Hackathon)" description="KarunyaHacks conducted the first-ever 24-hour hackathon in the history of KITS where 122 students from 37 teams participated and built projects over various domains. This event was hosted by KarunyaHacks in collaboration with Major League Hacking. "/>
-                        <CardsLeft image={pic13} date="24 Oct 2019" title="LHD - LEARN 2019" description="This event was hosted in collaboration with Major League Hacking. Students learned to create an AI Chatbot with Python and successfully hosted dynamic and static web apps/pages using AWS. A total of 110 students participated in the full-day event."/>
-                        <CardsRight image={pic12} date="18 Oct 2019" title="INTRODUCTION TO BLOCKCHAIN" description="Students were introduced to the hot, trending technology, “Blockchain”. A full-day session was organized wherein 70 students indulged themselves in implementing blockchain technology using python & build real-time applications in blockchain using Quorum and Ethereum. "/>
-                        <CardsLeft image={pic11} date="14, 16, 18, 23, 24 Oct 2019" title="BOOTCAMP" description="The Bootcamp event designed solely for the first years comprised of the topics 1)Amazon Alexa, 2)Advanced Python, 3)Python Automation & 4)Data Science; were taught to students over a span of 5 days (2 hrs/day). 70 - 120 students participated and gained knowledge & hands-on experience on the aforementioned topics. "/>
-                        <CardsRight image={pic10} date="09 Oct 2019" title="HACKTOBER-FEST" description="KarunyaHacks team provided a platform for the students to contribute towards the open-source community by admitting them to the “HacktoberFest in Karunya” event. Over 130 students participated and the majority of them received t-shirts, goods & swags from the Hacktoberfest team for completing six contributions within the prescribed time."/>
-                        <CardsLeft image={pic9} date="13, 14 Sep 2019" title="PYTHON WORKSHOP FOR NON-CSE STUDENT" description="A programming session on python language was organized exclusively for the non CS students where they were taught about basics & object oriented concepts. A total of 58 students participated in the full-day workshop."/>
-                        <CardsRight image={pic8} date="18 March 2019" title="BASICS OF WEN DEVELOPMENT" description="This workshop was hosted exclusively for 1st year students to participate, conducted in collaboration with Major League Hacking. 52 students participated for the 2-hour programme where they learnt how to build a website using HTML and CSS."/>
-                        <CardsLeft image={pic7} date="20 Feb 2019" title="PYTHON FOR DATA SCIENCE" description="Girls Wing of KarunyaHacks conducted a workshop on 'Python for Data science' on 20th Feb in order to empower the girl community.The workshop was planned, organized and attended by girl students."/>
-                        <CardsRight image={pic6} date="14 Feb 2019" title="CYBER SECURITY WORKSHOP" description="KarunyaHacks organized a workshop on 'Cyber Security' on 14th Feb lead by Mr. Sathish Kumar in Karunya Institute of Technology and Sciences."/>
-                        <div id="2018" className="topic-year mar-top-100">
-                            <h2>2018</h2>
-                            <div className="line-red"></div>
-                        </div>
-                        <CardsLeft image={pic5} date="17 Dec 2018" title="PYTHON GUI" description="Conducted first self-hosted workshop on python using GUI using Tkinter and Django Web framework on 17th Dec 2018."/>
-                        <CardsRight image={pic4} date="4 Dec 2018" title="MLH LOCAL HACK DAY" description="A global hackathon and celebration of learning, building, and sharing!.The hackathon was coducted on 4th December 2018 and attendees were made to code a project for 12 hours."/>
-                        <CardsLeft image={pic3} date="" title="INTRODUCTION TO DOCKER" description="During this workshop students were taught the basics of Docker and Software Containers. The workshop covered setting up Docker, running first container, creating a basic web application with Python and Docker, and how to push the Docker Image to DockerHub."/>
-                        <CardsRight image={pic2} date="22 Oct 2018" title="HACK THE TECHNICAL INTERVIEW: ALGORITHMS PRACTICE" description="In association with MLH Local Host we conducted Hack the Technical Interview workshop. During this workshop, students learned strategies to perform better in technical interviews."/>
-                        <CardsLeft image={pic1} date="11 Sep 2018" title="HACKING WITH AMAZON ALEXA" description="We have conducted Hacking with Amazon Alexa workshop in association with MLH Local Host continuously for the past two years.During this workshop participants will be taught the basics of how to build skills for Amazon Alexa to run on Alexa devices like the Amazon Tap or Echo."/>
-
+                        <CardsRight image={pic3} date="09 Oct 2020" title="Memories 2020-Challenge" description="We call ourselves a family, the bright big beautiful Karunyan Family. Oh so fully filled with memories and treasured moments. Memories- 2020 was a unified territory for all the Karunyans of the year 2020 to walk us down their memory lane, sharing their stories and adventures here in Karunya. We had to say it. It was that one time we found happiness in the tears of our seniors. Come on who would want to leave campus this so beloved? But there they are rising and shining!"/>
+                        <CardsLeft image={pic2} date="03 Oct 2020" title="Logo challenge" description="Ignite imagination and keep it burning, not boring! While expanding our arena of challenges to keep our Karunyans pumped, the Logo challenge was an exciting area that we landed on. It was all cool and quirky and absolutely brilliant to watch our fellow mates racing their creative thoughts towards an edgy logo."/>
+                        <CardsRight image={pic1} date="12 Sep 2020" title="Design Bootcamp -I" description="Karunya Kreatives, as a team believes in emanating the joy of  sharing creativity. Our Design Series - Photoshop Bootcamp -1 was truly a fun space for some inventive activities that included a thorough run-through of Adobe Photoshop, fun challenges for the participants, QnA session, and certification. As creativity has no limits, our Bootcamp was an open-to-all event adding to the reasons for the immense delight in the success the event."/>
+                        
                     </div>
                 </div>
             <Footer2 />

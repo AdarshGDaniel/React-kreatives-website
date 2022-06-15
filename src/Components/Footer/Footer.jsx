@@ -22,16 +22,7 @@ function Footer(props) {
                     </div>
                 </div>
                 <div className="middle-part-footer">
-                    <div className="socialLogos">
-                        <a href="https://www.facebook.com/karunyahacks/" target="_blank"><FaFacebookF size="20" /></a>
-                        <a href="https://twitter.com/karunyahacks?lang=en" target="_blank"><FaTwitter size="20" /></a>
-                        <a href="https://www.linkedin.com/company/karunyahacks/" target="_blank"><FaLinkedinIn size="20" /></a>
-                        <a href="https://www.instagram.com/karunyahacks/?hl=en" target="_blank"><FaInstagram size="20" /></a>
-                        <a href="https://t.me/karunyahacks" target="_blank"><FaTelegramPlane size="20" /></a>
-                    </div>
                     <div className="inforLinks">
-                        <LINK style={{cursor: 'pointer'}} activeClass="active" to="OurTeam" spy={true} smooth={true} offset={0} duration={500}>Our Team</LINK>•
-                        <LINK style={{cursor: 'pointer'}} activeClass="active" to="Sponsors" spy={true} smooth={true} offset={0} duration={500}>Sponsor</LINK>•
                         <LINK style={{cursor: 'pointer'}} activeClass="active" to="PastEvents" spy={true} smooth={true} offset={0} duration={500}>Events</LINK>•
                         <Link style={{textDecoration: 'none'}} to='Rules'>Terms & Conditions</Link>
                     </div>
